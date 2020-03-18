@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'Gotham-Thin';
+    src: url('fonts/Gotham/Gotham-Thin.eot');
+    src: local('Gotham Thin'), local('Gotham-Thin'),
+        url('fonts/Gotham/Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gotham/Gotham-Thin.woff2') format('woff2'),
+        url('fonts/Gotham/Gotham-Thin.woff') format('woff'),
+        url('fonts/Gotham/Gotham-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('fonts/Gotham/Gotham-Book.eot');
+    src: local('Gotham Book'), local('Gotham-Book'),
+        url('fonts/Gotham/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gotham/Gotham-Book.woff2') format('woff2'),
+        url('fonts/Gotham/Gotham-Book.woff') format('woff'),
+        url('fonts/Gotham/Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('fonts/Gotham/Gotham-Light.eot');
+    src: local('Gotham Light'), local('Gotham-Light'),
+        url('fonts/Gotham/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gotham/Gotham-Light.woff2') format('woff2'),
+        url('fonts/Gotham/Gotham-Light.woff') format('woff'),
+        url('fonts/Gotham/Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Medium.eot');
+    src: local('Gotham Medium'), local('Gotham-Medium'),
+        url('fonts/Gotham/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gotham/Gotham-Medium.woff2') format('woff2'),
+        url('fonts/Gotham/Gotham-Medium.woff') format('woff'),
+        url('fonts/Gotham/Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+a {
+    color: #2e343b;
+    
+}
+a:hover {
+    color: #4f4f4f;
+}
+.top {
+  background-image: url(img/background-top.jpg);
+  padding-bottom: 50px;
+}
+
+.navigation .row > div{
+    background-color: white;
+}
+.nav-email{ 
+  font-family: Gotham-Book;
+}
+.nav-menu {
+    border-top: 2px solid #f1f1f1;
+    font-family: Gotham;
+    font-size: 15px;
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+}
+.nav-menu > ul li{
+    margin-left: 10px;
+}
+.logo {
+    border-right: 2px solid #f1f1f1;
+}
