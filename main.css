@@ -43,20 +43,68 @@
     font-weight: 500;
     font-style: normal;
 }
+
+@media (max-width: 1199.98px) {
+    .navigation-content{
+        width: 100% !important;
+    }
+}
+
 a {
     color: #2e343b;
-    
+    text-decoration: none !important;
 }
 a:hover {
     color: #4f4f4f;
 }
+.btn-orange {
+    background-color: #eb5635;
+    color: #f8f8f8;
+    font-family: Gotham;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    letter-spacing: 0;
+}
+.btn-orange:hover {
+    background-color: #ffffff;
+}
+.dropdown-top {
+    font-family: Gotham-Book, sans-serif;
+}
+.icons {
+    padding-top: 0.3rem;
+}
 .top {
   background-image: url(img/background-top.jpg);
-  padding-bottom: 50px;
+  padding-bottom: 11.7rem;
 }
-
-.navigation .row > div{
+.top-text {
+    color: #ffffff;
+    font-family: Gotham-Book;
+    margin-top: 10.5rem; 
+    letter-spacing: 0.84px;
+}
+.top-text hr {
+    width: 186px;
+    height: 4px;
+    background-color: #eb5635;
+}
+.top-text > #top-text-1 {
+    font-family: Gotham;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+}
+.top-text > #top-text-2 {
+    font-family: Gotham-Thin;
+    font-size: 1.13rem; 
+    letter-spacing: 0.36px;
+}
+.navigation .navigation-content{
     background-color: white;
+    width: 91.1%;
 }
 .nav-email{ 
   font-family: Gotham-Book;
@@ -67,9 +115,14 @@ a:hover {
     font-size: 15px;
     padding-top: 0.7rem !important;
     padding-bottom: 0.7rem !important;
+    padding-right: 1.75rem;
 }
 .nav-menu > ul li{
     margin-left: 10px;
+    padding-left: 0.5rem;
+}
+.navbar-toggler {
+    color: #eb5635;
 }
 .logo {
     border-right: 2px solid #f1f1f1;

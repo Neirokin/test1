@@ -6,42 +6,120 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+	<script src="https://kit.fontawesome.com/22763864af.js" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 	
-	<div class="top py-5">
-		<div class="container">
-			<div class="navigation">
-				<div class="row py-3 nav-logo">
-					<div class="col-lg-auto logo pl-4 pr-5 py-3">
-						<img src="img/logo.jpg" alt="Blitz Games Studios">
-					</div>
-					<div class="col-lg justify-content-left nav-email">
-						<div class="email-country pt-4">	
-							<img src="img/icons/email.png" class="ml-1 inline-block"> <span class="ml-2">info@blitzgamesstudios.com</span>
-							<img src="img/icons/country.png" class="ml-3 d-inline-block"> <a href="#" class="btn">Sweden</a>
-						</div>
-						<!-- ЗДЕСЬ КАКОЙ-ТО DROPDOWN -->
-					</div>
-
-					<div class="col-lg-auto nav-menu py-2">
-						<ul class="nav">
-							<li class="nav-item"><a href="#" class="nav-link">Our Story</a></li>
-							<li class="nav-item"><a href="#" class="nav-link">What we do</a></li>
-							<li class="nav-item"><a href="#" class="nav-link">Games</a></li>
-							<li class="nav-item"><a href="#" class="nav-link">Work with us</a></li>
-							<li class="nav-item"><a href="#" class="nav-link">Support</a></li>
-							<li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-auto nav-menu">
-						<img src="img/icons/facebook.png" class="d-inline-block pl-1">
-						<img src="img/icons/twitter.png" class="d-inline-block pl-1">
-						<img src="img/icons/youtube.png" class="d-inline-block pl-1">
-						<!-- ЗАМЕНИТЬ НА FA -->
+	<div class="top pt-5">
+		<div class="container-sm navigation">
+			<div class="row nav-logo navigation-content">
+				<div class="col-xl-auto col-lg-6 logo pl-sm-4 pr-sm-5 py-sm-3 p-4">
+					<img src="img/logo.jpg" class="img-fluid" alt="Blitz Games Studios">
+				</div>
+				<div class="col-xl-4 col-lg-6 justify-content-left nav-email">
+					<div class="email-country pt-4">	
+						<img src="img/icons/email.png" class="ml-sm-1 inline-block"> <span class="ml-2">info@blitzgamesstudios.com</span>
 					</div>
 				</div>
+				<div class="col-xl-auto col-lg-auto justify-content-left nav-email pt-2 pb-3 pb-sm-0 pt-sm-4">	
+					<img src="img/icons/country.png" class="ml-sm-3 mr-2 d-inline-block">
+					<div class="dropdown d-inline">
+						<a class="dropdown-toggle" href="#" role="button" id="countryDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sweden</a>
+						<div class="dropdown-menu" aria-labelledby="countryDropDown">
+							<a class="dropdown-item" href="#">German</a>
+							<a class="dropdown-item" href="#">Russia</a>
+							<a class="dropdown-item" href="#">USA</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row navigation-content">
+				<div class="col-12 text-center d-sm-none">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      					<i class="fas fa-bars"></i>
+   					</button>	
+				</div>
+						
+				<div class="px-3 col-xl-auto nav-menu navbar navbar-expand-lg py-2 .collapse.navbar-collapse" id="navbar">
+					<ul class="nav">
+						<li class="nav-item"><a href="#" class="nav-link">Our Story</a></li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle nav-link" href="#" role="button" id="whatWeDoDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								What we do
+							</a>
+							<div class="dropdown-menu dropdown-top" aria-labelledby="whatWeDoDropdown">
+								<a class="dropdown-item" href="#">Lorem</a>
+								<a class="dropdown-item" href="#">Ipsum</a>
+								<a class="dropdown-item" href="#">Lorem</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle nav-link" href="#" role="button" id="gamesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Games
+							</a>
+							<div class="dropdown-menu dropdown-top" aria-labelledby="gamesDropdown">
+								<a class="dropdown-item" href="#">Lorem</a>
+								<a class="dropdown-item" href="#">Ipsum</a>
+								<a class="dropdown-item" href="#">Lorem</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle nav-link" href="#" role="button" id="workWithUsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Work with us
+							</a>
+							<div class="dropdown-menu dropdown-top" aria-labelledby="workWithUsDropdown">
+								<a class="dropdown-item" href="#">Lorem</a>
+								<a class="dropdown-item" href="#">Ipsum</a>
+								<a class="dropdown-item" href="#">Lorem</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle nav-link" href="#" role="button" id="supportDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Support
+							</a>
+							<div class="dropdown-menu dropdown-top" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="#">Lorem</a>
+								<a class="dropdown-item" href="#">Ipsum</a>
+								<a class="dropdown-item" href="#">Lorem</a>
+							</div>
+						</li>
+						<li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-xl-auto nav-menu">
+					<div class="icons text-center">
+						<a href="#"><img src="img/icons/facebook.png" class="d-inline-block pl-1"></a>
+						<a href="#"><img src="img/icons/twitter.png" class="d-inline-block pl-1"></a>
+						<a href="#"><img src="img/icons/youtube.png" class="d-inline-block pl-1"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row top-text">
+				<div class="col-xl">
+					<h1>Clash Of Clans</h1>
+				</div>	
+				<div class="w-100"></div>
+				<div class="col-xl">
+					<hr class="m-1 mb-2">
+				</div>	
+				<div class="w-100"></div>
+				<div class="col-xl-7" id="top-text-1">
+					<span>See if your career path</span><br>
+					<span>will lead you to Supercell.</span>
+				</div>
+				<div class="w-100"></div>	
+				<div class="col-xl-7 mt-3" id="top-text-2">
+					<span>Build your own medieval village, raise an army of bloodthirsty barbarians and wizards and battle with other players.</span>
+				</div>
+				<div class="col-12 col-md-6 pt-4 text-center text-sm-left">
+					<a href="#" class="btn btn-orange badge-pill mt-2 mt-sm-0">APP STORE</a>
+					<a href="#" class="btn btn-orange badge-pill mt-2 mt-sm-0">GOOGLE STORE</a>
+				</div>	
 			</div>
 		</div>
 	</div>	
