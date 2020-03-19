@@ -44,9 +44,12 @@
     font-style: normal;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 767.98px) {
     .navigation-content{
-        width: 100% !important;
+        width: 109% !important;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
 
@@ -103,6 +106,7 @@ a:hover {
     letter-spacing: 0.36px;
 }
 .navigation .navigation-content{
+    border-top: 2px solid #f1f1f1;
     background-color: white;
     width: 91.1%;
 }
@@ -110,7 +114,6 @@ a:hover {
   font-family: Gotham-Book;
 }
 .nav-menu {
-    border-top: 2px solid #f1f1f1;
     font-family: Gotham;
     font-size: 15px;
     padding-top: 0.7rem !important;
