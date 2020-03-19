@@ -43,7 +43,6 @@
     font-weight: 500;
     font-style: normal;
 }
-
 @media (max-width: 767.98px) {
     .navigation-content{
         width: 109% !important;
@@ -53,6 +52,10 @@
     }
 }
 
+
+body {
+    background-color: #fafafa;
+}
 a {
     color: #2e343b;
     text-decoration: none !important;
@@ -66,11 +69,24 @@ a:hover {
     font-family: Gotham;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: .4rem;
-    padding-bottom: .4rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     letter-spacing: 0;
 }
 .btn-orange:hover {
+    background-color: #ffffff;
+}
+.btn-transparent {
+    border: 3px solid white;
+    color: #f8f8f8;
+    font-family: Gotham;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    letter-spacing: 0;
+}
+.btn-transparent:hover {
     background-color: #ffffff;
 }
 .dropdown-top {
@@ -80,7 +96,7 @@ a:hover {
     padding-top: 0.3rem;
 }
 .top {
-  background-image: url(img/background-top.jpg);
+  background-image: url(img/background/background-top.jpg);
   padding-bottom: 11.7rem;
 }
 .top-text {
@@ -129,4 +145,124 @@ a:hover {
 }
 .logo {
     border-right: 2px solid #f1f1f1;
+}
+
+
+.highteded-game {
+    background-image: url(img/background/background-highteded-game.jpg);
+    padding-bottom: 13.8rem !important;
+}
+.highteded-game h1 {
+    color: #686868;
+    font-family: Gotham-Book;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0.84px;
+}
+.highteded-game .download-text {
+    opacity: 0.8;
+    color: #d4d4d4;
+    font-family: Gotham-Book;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+}
+.highteded-game hr {
+    width: 186px;
+    height: 4px;
+    background-color: #eb5635;
+}
+.highteded-game .description-text {
+    color: #4f4f4f;
+    font-family: Gotham;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.84px;
+}
+.highteded-game .description-text-2 {
+    color: #b1b1b1;
+    font-family: Gotham-Thin;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+}
+
+.three-boxes {
+    bottom: 5rem;
+}
+.three-boxes .box-text{
+    background-color: white;
+}
+.three-boxes .box-1{
+    max-width: 509px;
+}
+.three-boxes .box-2{
+    max-width: 245px;
+}
+.three-boxes .box-3{
+    max-width: 509px;
+}
+.box-header{
+    color: #4b4b4b;
+    font-family: Gotham-Light;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 38.47px;
+    letter-spacing: 0.59px;
+}
+.box-1 .box1-description-text {
+    color: #b1b1b1;
+    font-family: Gotham-Light;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22.52px;
+    letter-spacing: 0.36px;
+}
+.box-3 h2 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 38.47px;
+    font-family: Gotham-Light;
+    font-weight: 300;
+    letter-spacing: 0.59px;
+}
+.box-3 h2 > span {
+    font-family: Gotham;
+    font-weight: 500;
+    letter-spacing: 0.59px;
+}
+.box-3 .box3-description-text {
+    color: #ffffff;
+    font-family: Gotham-Light;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22.52px;
+    letter-spacing: 0.36px;
+}
+.orange-circle {
+    border: 2px solid #eb5635;
+    border-radius: 50%;
+    width: 43px;
+    height: 42px;
+}
+.circle-inner {
+    color: #eb5635;
+    font-family: Gotham;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20.25px;
+    letter-spacing: 0.36px;
+}
+.circle-outer {
+    color: #eb5635;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.5px;
+    letter-spacing: 0.36px;
 }
