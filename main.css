@@ -55,7 +55,7 @@
 
 body {
     background-color: #fafafa;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 a {
     color: #2e343b;
