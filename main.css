@@ -43,15 +43,38 @@
     font-weight: 500;
     font-style: normal;
 }
+
 @media (max-width: 767.98px) {
     .navigation-content{
-        width: 109% !important;
+        width: 100% !important;
     }
     body{
         overflow-x: hidden;
     }
 }
-
+@media (min-width: 768px) {
+ .container-large {
+   width: 770px;
+ }
+}
+@media (min-width: 992px) {
+  .container-large {
+    width: 1030px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-large {
+    width: 1310px;
+  }
+    .navigation-content {
+        width: 1000px !important;
+    }
+}
+.container-large {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 15px; 
+}
 
 body {
     background-color: #fafafa;
@@ -70,7 +93,7 @@ a:hover {
     font-family: Gotham;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: .5rem;
+    padding-top: .52rem;
     padding-bottom: .5rem;
     letter-spacing: 0;
 }
@@ -83,7 +106,7 @@ a:hover {
     font-family: Gotham;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: .5rem;
+    padding-top: .52rem;
     padding-bottom: .5rem;
     letter-spacing: 0;
 }
@@ -93,8 +116,32 @@ a:hover {
 .dropdown-top {
     font-family: Gotham-Book, sans-serif;
 }
+.icon {
+    padding: 0.25rem;
+    width: 1.625rem;
+    height: 1.625rem;
+    border-radius: 50%;
+    font-size: 0.75rem;
+}
+.icon:hover { 
+    opacity: 0.8;
+}
+.icon a {
+    color: white;
+}
 .icons {
     padding-top: 0.3rem;
+    
+}
+.icon-f {
+    background-color: #407a86;
+    color: white !important;
+}
+.icon-twit {
+    background-color: #41b7cc;
+}
+.icon-yout {
+    background-color: #eb5635;
 }
 .top {
   background-image: url(img/background/background-top.jpg);
@@ -125,7 +172,7 @@ a:hover {
 .navigation .navigation-content{
     border-top: 2px solid #f1f1f1;
     background-color: white;
-    width: 91.1%;
+    width: 100%;
 }
 .nav-email{ 
   font-family: Gotham-Book;
@@ -258,8 +305,11 @@ a:hover {
     font-family: Gotham;
     font-size: 15px;
     font-weight: 500;
-    line-height: 20.25px;
+    vertical-align: middle;
     letter-spacing: 0.36px;
+}
+.circle-inner-2 {
+    margin-left: 2px;
 }
 .circle-outer {
     color: #eb5635;
@@ -271,19 +321,19 @@ a:hover {
 }
 
 
-.team h2 {
+.team-header {
     color: #222222;
     font-family: Gotham;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: -1.08px;
 }
-.team hr {
+.team-underline {
     width: 49px;
     height: 7px;
     background-color: #eb5635;
 }
-.team .main-text {
+.main-text {
     color: #999999;
     font-family: Gotham-Book;
     font-style: italic;
@@ -294,4 +344,61 @@ a:hover {
 .main-text .inner-text {
     color: #eb5635;
     font-weight: bold;
+}
+.vacancy-card {
+    background-color: white;
+}
+.vacancy-card .btn-transparent {
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 700;
+    border-color: #eb5635;
+    border-width: 1px;
+    color: #eb5635;
+    padding-top: 0.35rem !important;
+    padding-bottom: 0.35rem !important;
+}
+.vacancy-card .btn-transparent:hover{
+    background-color: #eb5635;
+    color: white;
+}
+.vacancy-card h3 {
+    color: #4b4b4b;
+    font-family: Gotham;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    line-height: 38.47px;
+    letter-spacing: 0.45px;
+}
+.vacancy-card .map-mark{
+    color: #eb5635;
+    font-size: 0.9375rem;
+}
+.vacancy-card-text {
+    color: #b1b1b1;
+    font-family: Gotham-Book;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22.52px;
+    letter-spacing: 0.28px;
+}
+.place span {
+    color: #b1b1b1;
+    font-family: Gotham-Light;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    line-height: 22.52px;
+    letter-spacing: 0.32px;
+}
+.time i{
+    color: #a5a5a5;
+    font-size: 0.75rem;
+}
+.time span {
+    color: #b1b1b1;
+    font-family: Gotham;
+    font-size: 0.75rem;
+    font-weight: 300;
+    line-height: 22.52px;
+    letter-spacing: 0.26px;
 }
