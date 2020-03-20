@@ -150,7 +150,9 @@ a:hover {
 
 .highteded-game {
     background-image: url(img/background/background-highteded-game.jpg);
-    padding-bottom: 13.8rem !important;
+    background-position: center;
+    padding-bottom: 9.7rem !important;
+    padding-top: 7rem !important;
 }
 .highteded-game h1 {
     color: #686868;
@@ -265,4 +267,30 @@ a:hover {
     font-weight: 500;
     line-height: 24.5px;
     letter-spacing: 0.36px;
+}
+
+
+.team h2 {
+    color: #222222;
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.08px;
+}
+.team hr {
+    width: 49px;
+    height: 7px;
+    background-color: #eb5635;
+}
+.team .main-text {
+    color: #999999;
+    font-family: Gotham-Book;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.main-text .inner-text {
+    color: #eb5635;
+    font-weight: bold;
 }
