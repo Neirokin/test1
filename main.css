@@ -85,7 +85,10 @@ a {
     text-decoration: none !important;
 }
 a:hover {
-    color: #4f4f4f;
+    color: #868686;
+}
+.bg-white {
+    background-color: white;
 }
 .btn-orange {
     background-color: #eb5635;
@@ -131,17 +134,25 @@ a:hover {
 }
 .icons {
     padding-top: 0.3rem;
-    
 }
 .icon-f {
     background-color: #407a86;
     color: white !important;
 }
+.icon-f i{
+    margin-right: 0.01rem;
+}
 .icon-twit {
     background-color: #41b7cc;
 }
+.icon-twit i{
+    margin-left: 0.07rem;
+}
 .icon-yout {
     background-color: #eb5635;
+}
+.icon-yout i{
+    margin-left: 0.02rem;
 }
 .top {
   background-image: url(img/background/background-top.jpg);
@@ -401,4 +412,82 @@ a:hover {
     font-weight: 300;
     line-height: 22.52px;
     letter-spacing: 0.26px;
+}
+
+.twitter a {
+    color: #eb5635;
+    font-family: Gotham-Book;
+    font-size: 15px;
+    line-height: 22.52px;
+    letter-spacing: 0.32px;
+}
+.twitter h2 {
+    color: #222222;
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.08px;
+}
+.twitter .view-more {
+    color: #b1b1b1;
+    font-family: Gotham-Light;
+    font-size: 15px;
+    line-height: 22.52px;
+    letter-spacing: 0.32px;
+}
+.twitter .view-more:hover {
+    opacity: 0.6;
+}
+.twitter h3 {
+    color: #4b4b4b;
+    font-family: Gotham;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 27.47px;
+    letter-spacing: 0.45px;
+}
+.twitter .date {
+    color: #b1b1b1;
+    font-family: Gotham-Book;
+    font-size: 15px;
+    line-height: 22.52px;
+    letter-spacing: 0.32px;
+}
+.twitter p  {
+    color: #b1b1b1;
+    font-family: Gotham-Book;
+    font-size: 15px;
+    line-height: 22.52px;
+    letter-spacing: 0.32px;
+}
+
+.twitter a:hover{
+    opacity: 0.6;
+}
+.tweets-block a{
+    color: #59adeb;
+}
+.tweets-block .shape {
+    bottom: 1rem;
+}
+.tweets-block .twitter-link {
+    bottom: 1.7rem;
+}
+
+
+footer .navbar {
+    border-bottom: 1px solid #f2f2f2;
+    color: #2e343b;
+    font-family: Gotham;
+    font-size: 15px;
+    font-weight: 500;
+}
+footer .navbar li {
+    margin-right: 2rem;
+}
+footer .terms {
+    color: #2e343b;
+    font-family: Gotham-Book;
+    font-size: 15px;
+    font-weight: 400;
 }
