@@ -53,9 +53,9 @@
     }
 }
 @media (min-width: 768px) {
- .container-large {
-   width: 770px;
- }
+    .container-large {
+        width: 770px;
+    }
 }
 @media (min-width: 992px) {
   .container-large {
@@ -156,6 +156,7 @@ a:hover {
 }
 .top {
   background-image: url(img/background/background-top.jpg);
+  background-size: cover; 
   padding-bottom: 11.7rem;
 }
 .top-text {
@@ -209,6 +210,7 @@ a:hover {
 
 .highteded-game {
     background-image: url(img/background/background-highteded-game.jpg);
+    background-size: cover;
     background-position: center;
     padding-bottom: 9.7rem !important;
     padding-top: 7rem !important;
@@ -356,9 +358,6 @@ a:hover {
     color: #eb5635;
     font-weight: bold;
 }
-.vacancy-card {
-    background-color: white;
-}
 .vacancy-card .btn-transparent {
     font-family: Gotham;
     font-size: 12px;
@@ -490,4 +489,7 @@ footer .terms {
     font-family: Gotham-Book;
     font-size: 15px;
     font-weight: 400;
+}
+.owl-nav {
+    display: block !important;
 }
