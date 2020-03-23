@@ -85,6 +85,9 @@
 body {
     background-color: #fafafa;
 }
+html {
+    overflow-x: hidden !important;
+}
 a {
     color: #2e343b;
     text-decoration: none !important;
