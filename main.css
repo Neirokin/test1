@@ -52,6 +52,12 @@
         overflow-x: hidden;
     }
 }
+@media (max-width: 576px) {
+    .three-boxes img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
 @media (min-width: 768px) {
     .container-large {
         width: 770px;
@@ -278,6 +284,8 @@ a:hover {
     max-width: 245px;
 }
 .three-boxes .box-3{
+    background-image: url(img/content/box-3.jpg);
+    background-size: cover;
     max-width: 509px;
 }
 .box-header{
