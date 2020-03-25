@@ -252,7 +252,7 @@
 					<div class="row justify-content-center">
 						<div class="col-12 pt-4"></div>
 						<div class="col-1 d-none d-md-block">
-							<button class="btn prev-owl fill ml-xl-3"><i class="fas fa-arrow-left"></i></button>
+							<button class="btn prev-owl ml-xl-3 disabled"><i class="fas fa-arrow-left"></i></button>
 						</div>
 						<div class="col-10 px-0">
 							<div class="owl-carousel owl-theme" id="myTab" role="tablist">
@@ -573,17 +573,32 @@
 
 	<!-- OWL BUTTONS -->
 	<script type="text/javascript">
+		//CUSTOM BUTTONS
 		let owl = $(".owl-carousel");
 		owl.owlCarousel();
-		//$(".next") - находим нашу кнопку
 		$(".next-owl").click(function(){
 			owl.trigger("next.owl.carousel");
 		});
 		$(".prev-owl").click(function(){
 			owl.trigger("prev.owl.carousel");
-		});	
-	</script>
+		});
 
+		//DISABLING BUTTONS
+		owl.on('changed.owl.carousel', function(event) {
+			let carousel = event.relatedTarget,
+	        current = carousel.current();
+		    if (current == 0)
+		    	$('.prev-owl').addClass('disabled');
+		    else 
+		    	$('.prev-owl').removeClass('disabled');
+		    if (current === carousel.maximum())
+		    	$('.next-owl').addClass('disabled');
+		    else 
+		    	$('.next-owl').removeClass('disabled');
+		})
+
+	</script>
+	
 	<!-- TABS -->
 	<script type="text/javascript">
 	$(document).ready(function(){
