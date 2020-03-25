@@ -112,8 +112,12 @@ body {
     background-color: #fafafa;
 }
 .disabled {
+    cursor: default !important;
     background-color: #3a3a3a !important;
     opacity: 1 !important;
+}
+button.disabled:hover {
+    opacity: 1  !important;
 }
 html {
     overflow-x: hidden !important;
@@ -420,6 +424,7 @@ a:hover {
     outline: 4px solid #eb5635;
 }
 .prev-owl, .next-owl {
+    cursor: pointer;
     background-color: #eb5635;
     color: white;
     width: 100%;
