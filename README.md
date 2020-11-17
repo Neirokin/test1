@@ -1,2 +1,4 @@
 # test1
-Вёрстка сайта по макету с испоользование Bootstrap.
+Адаптивная вёрстка сайта по макету с испоользование Bootstrap.
+
+[`github-pages`](https://neirokin.github.io/test1/)
